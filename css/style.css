@@ -5,7 +5,8 @@ body {
 
 body {
 	display: flex;
-	background-color: #131313;
+	flex-flow: column nowrap;
+	background-color: #171717;
 	color: palegreen;
 	height: 100vh;
 	margin: 0;
@@ -13,6 +14,27 @@ body {
 	justify-content: center;
 	align-items: center;
 	text-align: center;
+}
+
+header {
+	display: flex;
+	padding: 0;
+	margin: 0;
+	height: 47px;
+	width: 100%;
+	background-color: #131313;
+	color: palegreen;
+	align-items: center;
+	border-bottom: solid 1px palegreen;
+	gap: 16px;
+}
+
+a {
+	text-decoration: none;
+	color: palegreen;
+	border: solid 1px palegreen;
+	padding: 6px;
+	margin: 0 8px;
 }
 
 main {
